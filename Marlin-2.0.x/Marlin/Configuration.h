@@ -681,8 +681,7 @@
 
 // Enable this feature if all enabled endstop pins are interrupt-capable.
 // This will remove the need to poll the interrupt pins, saving many CPU cycles.
-//@25mmHgFIX: CHECKTHIS
-//#define ENDSTOP_INTERRUPTS_FEATURE
+#define ENDSTOP_INTERRUPTS_FEATURE //@25mmHgFIX: CHECKTHIS
 
 /***
  * Endstop Noise Threshold
@@ -1665,7 +1664,7 @@
  * Enable one of the following items for a slower SPI transfer speed.
  * This may be required to resolve "volume init" errors.
  **/
-#define SPI_SPEED SPI_HALF_SPEED //@25mmHgFIX:
+//#define SPI_SPEED SPI_HALF_SPEED //@25mmHgFIX:
 //#define SPI_SPEED SPI_QUARTER_SPEED
 //#define SPI_SPEED SPI_EIGHTH_SPEED
 
